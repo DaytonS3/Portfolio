@@ -1,0 +1,97 @@
+* {
+  font-family: "Martel", serif;
+  font-size: 20px;
+}
+
+.bg-img {
+  background-image: url(../../images//345789.jpg);
+  height: 86vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.HomeLogo {
+  text-decoration: none;
+  color: #19b6d0;
+  font-family: "Monoton", cursive;
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+.introContainer {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  margin: 0 0 0 20px;
+  color: #ff0000;
+  font-family: "Paytone One", sans-serif;
+}
+
+.overlayText {
+  font-size: 60px;
+  margin: 0 0 0 20px;
+  color: #ff0000;
+  text-align: center;
+  text-align: left;
+  font-family: "Paytone One", sans-serif;
+}
+
+.HomeSummary {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.contactContainer {
+  text-align: center;
+  width: 300px;
+  float: right;
+  margin: 95px 50px 0 0;
+}
+
+.contactHome {
+  font-size: 30px;
+  margin: 0px;
+  color: #ff0000;
+}
+
+.email {
+  font-size: 15px;
+  margin: 10px 0 25px 0;
+}
+
+.Icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: #19b6d0;
+}
+
+.skillsContainer {
+  height: 298px;
+  margin-top: 300px;
+}
+
+.skillsHeader {
+  text-align: center;
+  font-size: 40px;
+  color: #ff0000;
+}
