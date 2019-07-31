@@ -82,16 +82,21 @@
 
 a {
   text-decoration: none;
-  color: #19b6d0;
+  color: white;
 }
 
 .skillsContainer {
-  height: 298px;
-  margin-top: 300px;
+  height: 280px;
+  margin-top: 320px;
 }
 
 .skillsHeader {
   text-align: center;
   font-size: 40px;
   color: #ff0000;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: space-evenly;
 }

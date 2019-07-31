@@ -13,8 +13,8 @@ function Home() {
         </div>
 
         <p className="HomeSummary">
-          I'm a software engineer located in the Atlanta, Georgia area
-          specializing in buinding high-quality websites and applications.
+          I'm a software engineer student located in the Atlanta, Georgia area
+          specializing in building high-quality websites and applications.
         </p>
         <div className="contactContainer">
           <h2 className="contactHome">Contact Me</h2>
@@ -30,6 +30,23 @@ function Home() {
         </div>
         <div className="skillsContainer">
           <h2 className="skillsHeader">Skills</h2>
+          <div className="listContainer">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <ul>
+              <li>React</li>
+              <li>Redux</li>
+              <li>React-Native</li>
+            </ul>
+            <ul>
+              <li>Node.JS</li>
+              <li>Express</li>
+              <li>SQL</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
