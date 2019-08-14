@@ -1,20 +1,31 @@
-import React from "react";
-import "./Nav.css";
+import React from 'react';
+import './Nav.css';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
-    <div className="topSpacer">
-      <div class="container">
-        <div>
-          <a href="#" className="HomeLogo">
-            DS
-          </a>
-        </div>
-        <div class="topnav">
-          <a href="#">Home</a>
-          <a href="#">Projects</a>
-          <a href="#">About</a>
-        </div>
+    <div id="menu-nav">
+      <div id="navigation-bar">
+        <ul>
+          <li>
+            <a href="/">
+              <i class="fa fa-home" />
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="/projects">
+              <i class="fa fa-handshake" />
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="/">
+              <i class="fa fa-user" />
+              <span>About</span>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );

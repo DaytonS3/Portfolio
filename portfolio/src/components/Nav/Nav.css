@@ -1,32 +1,67 @@
-.topSpacer {
-  background: rgb(26, 27, 27);
-  height: 50px;
+body {
+  background: black;
+}
+#menu-nav {
+  width: 60%;
+  background-color: black;
+  box-shadow: 0 0 25px red;
+  margin: 30px auto;
+  border-radius: 20px;
 }
 
-.container {
-  width: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+#navigation-bar {
+  border-radius: 20px;
 }
 
-.HomeLogo {
-  text-decoration: none;
-  color: #19b6d0;
-  font-family: "Monoton", cursive;
-  font-size: 40px;
-  margin-left: 10px;
+#navigation-bar ul {
+  border-radius: 4px;
+  overflow: hidden;
 }
-
-.topnav a {
+#navigation-bar li {
   float: left;
-  color: #19b6d0;
-  text-align: center;
-  padding: 14px 20px;
+  width: 20%;
+}
+#navigation-bar li:hover a::before {
+  right: 0;
+  left: 0;
+}
+#navigation-bar a {
+  color: red;
+  font-size: 20px;
   text-decoration: none;
-  font-size: 17px;
+  text-align: center;
+  padding: 20px 0;
+  display: block;
+  position: relative;
+  transition: all 0.3s ease;
+  margin: 5px 0;
+}
+#navigation-bar a:hover {
+  color: white;
+}
+#navigation-bar a::before {
+  content: '';
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  bottom: 0;
+  height: 2px;
+  background-color: #e74c3c;
+}
+#navigation-bar a:hover::before {
+  right: 0;
+  left: 0;
 }
 
-.topnav a:hover {
-  color: #ff0000;
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+}
+
+li {
+  list-style: none;
 }
