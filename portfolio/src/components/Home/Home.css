@@ -14,9 +14,79 @@
   padding: 2%;
   border-radius: 10px;
   margin-top: 50px;
+  text-align: center;
 }
 
 .introContainer {
-  border: 3px solid blue;
   padding: 10px;
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.introText {
+  color: #ff1900;
+  font-size: 50px;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.overlayText {
+  color: #ff1900;
+  font-size: 80px;
+  font-family: 'Luckiest Guy', cursive;
+  margin-top: 20px;
+}
+
+.skills {
+  width: 45%;
+}
+
+.skillsText {
+  color: #ff1900;
+  font-size: 40px;
+}
+
+.skillsWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.sul {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactContainer {
+  width: 45%;
+}
+
+.contactHome {
+  color: #ff1900;
+  font-size: 40px;
+  margin: 0;
+}
+
+.email {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.Icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: space-evenly;
 }

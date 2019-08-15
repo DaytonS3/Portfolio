@@ -5,6 +5,7 @@ function Projects() {
   return (
     <div>
       <Nav />
+      <div class="homeContainer" />
     </div>
   );
 }

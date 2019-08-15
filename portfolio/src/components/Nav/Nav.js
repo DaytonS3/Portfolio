@@ -20,9 +20,9 @@ const Nav = () => {
             </a>
           </li>
           <li>
-            <a href="/">
+            <a href="https://resume.creddle.io/resume/ic1ul0iz32">
               <i class="fa fa-user" />
-              <span>About</span>
+              <span>Resume</span>
             </a>
           </li>
         </ul>

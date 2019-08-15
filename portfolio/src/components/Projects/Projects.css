@@ -1,3 +1,15 @@
 body {
   background: black;
 }
+
+.homeContainer {
+  background: black;
+  color: white;
+  box-shadow: 0 0 30px red;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2%;
+  border-radius: 10px;
+  margin-top: 50px;
+  height: 400px;
+}
