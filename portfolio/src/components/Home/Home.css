@@ -1,7 +1,12 @@
 * {
-  font-family: 'Martel', serif;
+  font-family: "Martel", serif;
   font-size: 20px;
   margin: 0px;
+}
+
+.container {
+  height: 90vh;
+  margin: 0;
   background: black;
 }
 
@@ -27,13 +32,13 @@
 .introText {
   color: #ff1900;
   font-size: 50px;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
 }
 
 .overlayText {
   color: #ff1900;
   font-size: 80px;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
   margin-top: 20px;
 }
 
@@ -69,7 +74,7 @@
 
 .email {
   margin-top: 10px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .Icons {
